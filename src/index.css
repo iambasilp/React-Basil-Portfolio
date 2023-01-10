@@ -20,7 +20,7 @@ ul{
   --transition: all 400ms ease;
   --container-width-lg:75%;
   --container-width-md:86%;
-  --container-width-ms:90%;
+  --container-width-sm:90%;
 }
 body{
   font-family: 'Poppins', sans-serif;
@@ -88,5 +88,43 @@ img{
     width: var(--container-width-lg);
     margin-inline: auto;
   }
+
+/*   MEDIA QUERYS (MEDIUM DEVICES)  */
+
+@media screen and (max-width:1024px) {
+      .container{
+        width: var(--container-width-md);
+      }  
+      .section{
+        margin: 6rem;
+      }
+}
+/*   MEDIA QUERYS (SMALL DEVICES)  */
+
+@media screen and (max-width:600px) {
+      .container{
+        width: var(--container-width-sm);
+        
+      }  
+      .section > h2{
+        margin-bottom: 2rem;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
