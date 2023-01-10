@@ -89,6 +89,10 @@ img{
     width: var(--container-width-lg);
     margin-inline: auto;
   }
+  .grid{
+    display: grid;
+    gap: 1.5rem;
+  }
 
 /*   MEDIA QUERYS (MEDIUM DEVICES)  */
 
