@@ -2,9 +2,9 @@ import React from 'react'
 import './experience.css'
 const Experience = () => {
   return (
-    <div>
-      Experience
-    </div>
+    <section className="experience section" id="experience">
+      <h1>Experience Section here...</h1>
+    </section>
   )
 }
 

@@ -1,0 +1,48 @@
+.nav {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: max-content; /*  New :) */
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: var(--z-fixed);
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 3rem;
+  backdrop-filter: blur(15px); /* New :) */
+}
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+}
+.nav__link {
+  background: transparent;
+  padding: 0.4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-light);
+  font-size: 1rem;
+}
+.nav__link:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.nav__link.active {
+  background: var(--color-bg);
+}
+/* For small devices */
+@media screen and (max-width: 340px) {
+  .nav {
+    padding-inline: 1.3rem;
+  }
+}
+
+/* For Medium devices */
+@media screen and (min-width: 576px) {
+  .nav__link {
+    padding: 0.6rem;
+    font-size: 1.1rem;
+  }
+}

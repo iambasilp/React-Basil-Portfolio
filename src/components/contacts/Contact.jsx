@@ -2,9 +2,9 @@ import React from 'react'
 import './contact.css'
 const Contact = () => {
   return (
-    <div>
-      Contact
-    </div>
+   <section className="contact section" id="contact">
+    <h1>Contact page here...</h1>
+   </section>
   )
 }
 

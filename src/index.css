@@ -21,7 +21,13 @@ ul{
   --container-width-lg:75%;
   --container-width-md:86%;
   --container-width-sm:90%;
+
+  
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
 }
+
 body{
   font-family: 'Poppins', sans-serif;
   background-color: var(--color-bg);
@@ -73,6 +79,7 @@ img{
    /* Reusable css */
    .section {
     margin-top: 8rem;
+    height: 100vh;
    }
    .section > h2 , .section > h5{
     text-align: center;
