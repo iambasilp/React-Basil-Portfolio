@@ -51,7 +51,7 @@ a:hover{
   padding: .75rem 1.2rem;
   border-radius: .4rem;
   cursor: pointer;
-  border: 1px solid --color-primary;
+  border: 1px solid var(--color-primary);
   transition: var(--transition);
 }
 .btn:hover{
@@ -68,6 +68,7 @@ img{
   width: 100%;
   object-fit: cover;
 }
+
 /* Layout */
    /* Reusable css */
    .section {
