@@ -1,0 +1,70 @@
+.experience{
+    padding-top: 4rem;
+}
+.experience__container {
+    justify-content: center;
+    gap: 1.5rem;
+}
+.experience__container > div {
+  background-color: var(--color-bg-varient);
+  padding: 2rem 3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+.experience__container > div:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.experience__container > div h3{
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--color-primary);
+}
+.experience__card{
+    display: grid;
+    row-gap: 1rem;
+}
+.experience__details{
+    display: inline-flex;
+    gap: 1rem;
+}
+.experience__details-icon{
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+
+/* For small devices */
+@media screen and (max-width:340px) {
+        /* nothing more */
+  }
+  
+  /* For Medium devices */
+  @media screen and (min-width:576px) {
+
+    .experience__container > div{
+        padding: 2.4rem 5rem;
+    }
+    .experience__card{
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+        
+    }
+  }
+  @media screen and (min-width:767px) {
+    .experience__container{
+        /* grid-template-columns: repeat(2,1fr); */
+    }
+  }
+  @media screen and (min-width:998px) {
+    .experience__container{
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+  }
+  
+  
+  

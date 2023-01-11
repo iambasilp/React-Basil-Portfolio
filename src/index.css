@@ -78,7 +78,7 @@ img{
 /* Layout */
    /* Reusable css */
    .section {
-    margin-top: 8rem;
+    margin-block: 3rem;
     height: 100vh;
    }
    .section > h2 , .section > h5{

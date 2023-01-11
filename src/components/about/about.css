@@ -1,6 +1,7 @@
 .about {
   position: relative;
-  padding-top: 3rem;
+  height: 100%;
+  padding-top: 4rem;
 }
 .about__container {
   gap: 3rem;
@@ -20,7 +21,7 @@
 }
 .about__img {
   position: relative;
-  width: 280px;
+  width: 240px;
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
@@ -40,7 +41,7 @@
   border: 1px solid transparent;
   border-radius: 1rem;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   transition: var(--transition);
   display: flex;
   flex-direction: column;
@@ -89,6 +90,9 @@
   }
 }
 @media screen and (min-width: 767px) {
+  .about{
+    height: 100vh;
+  }
   .about__container {
     grid-template-columns: repeat(2, 1fr);
   }
