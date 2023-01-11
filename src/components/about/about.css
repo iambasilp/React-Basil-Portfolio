@@ -1,0 +1,124 @@
+.about {
+  position: relative;
+  padding-top: 3rem;
+}
+.about__container {
+  gap: 3rem;
+  justify-content: center;
+}
+.about__container .me{
+    justify-self: center;
+    border-radius: 2rem;
+    justify-self: center;
+    height: max-content;
+    background: linear-gradient(
+      45deg,
+      transparent,
+      var(--color-primary),
+      transparent
+    );
+}
+.about__img {
+  position: relative;
+  width: 280px;
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+  display: flex;
+}
+
+.about__img:hover {
+  transform: rotate(0deg);
+}
+.about__cards {
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+.about__card {
+  background: var(--color-bg-varient);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 2rem;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-varient);
+  cursor: default;
+}
+.about__card-icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 0.9rem;
+}
+.about__card h5 {
+  font-size: 0.9rem;
+}
+.about__card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+.about__description {
+  margin-block: 2rem;
+  color: var(--color-light);
+  font-size: 0.9rem;
+}
+
+/* For small devices */
+@media screen and (max-width: 340px) {
+  .about__img {
+    width: 260px;
+  }
+  .about__card {
+    padding: 1.5rem;
+  }
+  .about__description {
+    font-size: 0.8rem;
+  }
+}
+/* For Medium devices */
+@media screen and (min-width: 576px) {
+  .about__img {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .about__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about__card {
+    padding: 1rem;
+  }
+}
+@media screen and (min-width:998px) {
+    .about__container{
+        gap: 4rem;
+    }
+    .about__img{
+        width: 360px;
+    }
+}
+/* For large devices */
+@media screen and (min-width: 1024px) {
+    .about__container{
+        padding-top: 1.5rem;
+        gap: 6rem;
+    }
+    .about__cards{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .about__card{
+        padding: 1rem 1.5rem;
+    }
+}
+@media screen and (min-width: 1064px) {
+  /* if you want to add more break point section  */
+}
+@media screen and (min-width: 1200px) {
+}

@@ -107,9 +107,6 @@ img{
       .container{
         width: var(--container-width-md);
       }  
-      .section{
-        margin: 6rem;
-      }
 }
 /*   MEDIA QUERYS (SMALL DEVICES)  */
 
