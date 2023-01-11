@@ -1,23 +1,24 @@
 .about {
   position: relative;
-  height: 100%;
-  padding-top: 4rem;
+  padding-top: 2.5rem;
 }
-.about__container {
-  gap: 3rem;
+.about__container {  
+  place-items: center;
+  gap: 2rem;
   justify-content: center;
+
 }
-.about__container .me{
-    justify-self: center;
-    border-radius: 2rem;
-    justify-self: center;
-    height: max-content;
-    background: linear-gradient(
-      45deg,
-      transparent,
-      var(--color-primary),
-      transparent
-    );
+.about__container .me {
+  justify-self: center;
+  border-radius: 2rem;
+  justify-self: center;
+  height: max-content;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
 }
 .about__img {
   position: relative;
@@ -90,8 +91,8 @@
   }
 }
 @media screen and (min-width: 767px) {
-  .about{
-    height: 100vh;
+  .about {
+    
   }
   .about__container {
     grid-template-columns: repeat(2, 1fr);
@@ -100,26 +101,25 @@
     padding: 1rem;
   }
 }
-@media screen and (min-width:998px) {
-    .about__container{
-        gap: 4rem;
-    }
-    .about__img{
-        width: 360px;
-    }
+@media screen and (min-width: 998px) {
+  .about__container {
+    gap: 4rem;
+  }
+  .about__img {
+    width: 360px;
+  }
 }
 /* For large devices */
 @media screen and (min-width: 1024px) {
-    .about__container{
-        padding-top: 1.5rem;
-        gap: 6rem;
-    }
-    .about__cards{
-        grid-template-columns: repeat(3,1fr);
-    }
-    .about__card{
-        padding: 1rem 1.5rem;
-    }
+  .about__container {
+    gap: 6rem;
+  }
+  .about__cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .about__card {
+    padding: 1rem 1.5rem;
+  }
 }
 @media screen and (min-width: 1064px) {
   /* if you want to add more break point section  */

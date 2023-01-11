@@ -1,5 +1,5 @@
 .experience{
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 .experience__container {
     justify-content: center;
@@ -54,12 +54,10 @@
         
     }
   }
-  @media screen and (min-width:767px) {
-    .experience__container{
-        /* grid-template-columns: repeat(2,1fr); */
-    }
-  }
   @media screen and (min-width:998px) {
+    .experience{
+        padding-top: 3.5rem;
+    }
     .experience__container{
         grid-template-columns: repeat(2,1fr);
         

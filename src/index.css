@@ -78,8 +78,7 @@ img{
 /* Layout */
    /* Reusable css */
    .section {
-    margin-block: 3rem;
-    height: 100vh;
+    margin-block: 5rem; /* New :)*/
    }
    .section > h2 , .section > h5{
     text-align: center;
