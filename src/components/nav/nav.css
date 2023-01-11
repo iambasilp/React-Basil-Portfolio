@@ -2,7 +2,7 @@
   background-color: rgba(0, 0, 0, 0.3);
   width: max-content; /*  New :) */
   display: block;
-  padding: 0.7rem 1.7rem;
+  padding: 0.9rem 1.7rem;
   z-index: var(--z-fixed);
   position: fixed;
   bottom: 2rem;
