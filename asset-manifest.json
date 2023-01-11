@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React-Basil-Portfolio/static/css/main.3639f537.css",
+    "main.css": "/React-Basil-Portfolio/static/css/main.f70e6c91.css",
     "main.js": "/React-Basil-Portfolio/static/js/main.4cefbe6d.js",
     "static/media/cv.pdf": "/React-Basil-Portfolio/static/media/cv.1676dcdc83730930d888.pdf",
     "static/media/me.png": "/React-Basil-Portfolio/static/media/me.821ecddcb9953b46bf75.png",
     "static/media/me-about.jpg": "/React-Basil-Portfolio/static/media/me-about.fb4452e7f286d3636ef9.jpg",
     "index.html": "/React-Basil-Portfolio/index.html",
-    "main.3639f537.css.map": "/React-Basil-Portfolio/static/css/main.3639f537.css.map",
+    "main.f70e6c91.css.map": "/React-Basil-Portfolio/static/css/main.f70e6c91.css.map",
     "main.4cefbe6d.js.map": "/React-Basil-Portfolio/static/js/main.4cefbe6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3639f537.css",
+    "static/css/main.f70e6c91.css",
     "static/js/main.4cefbe6d.js"
   ]
 }
