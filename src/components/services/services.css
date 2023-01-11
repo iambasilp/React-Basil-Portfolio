@@ -1,0 +1,86 @@
+.services {
+  padding-top: 2.5rem;
+}
+.services__container {
+  gap: 3rem;
+}
+.services__card {
+  background-color: var(--color-bg-varient);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid var(--color-primary);
+  height: fit-content; /* New :) */
+  transition: var(--transition);
+}
+.services__card:hover {
+  background-color: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+.services__head {
+  background-color: var(--color-primary);
+  padding: 2rem;
+  border-radius: 0rem 0rem 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+.services__head h3 {
+  color: var(--color-bg);
+  font-size: 1rem;
+  text-align: center;
+}
+.services__list {
+  padding: 2rem;
+}
+.services__list li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+.services__card-icon {
+  color: var(--color-primary);
+  font-size: 2rem;
+}
+.services__list p {
+  font-size: 0.9rem;
+}
+
+/* For small devices */
+@media screen and (max-width: 340px) {
+  .services__head {
+    padding: 1.5rem;
+  }
+  .services__card-icon {
+    font-size: 1.7rem;
+  }
+  .services__list p {
+    font-size: 0.8rem;
+  }
+}
+
+/* For Medium devices */
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 767px) {
+    .services__container{
+       grid-template-columns: repeat(2,1fr);   
+    }
+}
+@media screen and (min-width:998px) {
+    .container{
+        width: var(--container-width-sm);
+    }
+    .services__container{
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+    }
+}
+/* For large devices */
+@media screen and (min-width: 1024px) {
+    .services__container{
+        gap: 3rem;
+    }
+}
+@media screen and (min-width: 1064px) {
+  /* if you want to add more break point section  */
+}
+@media screen and (min-width: 1200px) {
+}
