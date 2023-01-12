@@ -32,6 +32,7 @@ ul{
 }
 
 body{
+  width: 100%;
   font-family: 'Poppins', sans-serif;
   background-color: var(--color-bg);
   color: var(--color-white);
@@ -96,7 +97,7 @@ img{
   /* utility */
   .container{
     width: var(--container-width-lg);
-    margin-inline: auto;
+    margin: 0 auto;
   }
   .grid{
     display: grid;
@@ -108,6 +109,7 @@ img{
 @media screen and (max-width:1024px) {
       .container{
         width: var(--container-width-md);
+        margin:0 auto;
       }  
 }
 /*   MEDIA QUERYS (SMALL DEVICES)  */
@@ -115,6 +117,7 @@ img{
 @media screen and (max-width:600px) {
       .container{
         width: var(--container-width-sm);
+        margin: 0 auto;
         
       }  
       .section > h2{

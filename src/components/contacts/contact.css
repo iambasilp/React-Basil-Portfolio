@@ -1,0 +1,81 @@
+.contact{
+    position: relative;
+    padding-top: 2.5rem;
+}
+.contact__container{
+    position: relative;
+    width: 75%;
+    gap: 10%;
+}
+.contact__data{
+    gap: 5%;
+}
+.contact__information{
+    background: var(--color-bg-varient);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+   transition: var(--transition);
+}
+.contact__information:hover{
+    background: transparent;
+    border-color: var(--color-primary-varient);
+}
+.contact__information-icon{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.contact__information a {
+    display: inline-block;
+    margin-top: 0.7rem;
+    font-size: .8rem;
+}
+
+/* Form  */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+input,textarea{
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: .5rem;
+    background-color: transparent;
+    border:2px solid var(--color-primary-varient);
+    resize: none;
+    color: var(--color-white);
+    accent-color: var(--color-primary-varient);
+}
+textarea{
+    font-family: inherit;
+}
+/* For small devices */
+@media screen and (max-width:340px) {
+
+  }
+  
+  /* For Medium devices */
+  @media screen and (min-width:576px) {
+    .contact__container{
+        width: 60%;
+    }
+  }
+  @media screen and (min-width:767px) {
+    .contact__container{
+        width: 70%;
+        grid-template-columns:1fr 2fr;
+    }
+  }
+  
+  /* For large devices */
+  @media screen and (min-width:1024px){
+
+  }
+  @media screen and (min-width:1064px) {
+      /* if you want to add more break point section  */
+  }
+  @media screen and (min-width:1200px){
+  
+  }

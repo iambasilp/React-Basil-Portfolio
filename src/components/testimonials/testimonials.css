@@ -1,4 +1,5 @@
 section.testimonials{
+    margin-block-end: 0rem;
 }
 
 .testimonials__container{
@@ -34,7 +35,7 @@ section.testimonials{
     .testimonials__container{
         width: var(--container-width-sm);
     }
-    .clien__review{
+    .client__review{
         width: var(--container-width-sm);
     }
 }

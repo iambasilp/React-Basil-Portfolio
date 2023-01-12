@@ -10,7 +10,6 @@
   transform: translateX(-50%);
   border-radius: 3rem;
   backdrop-filter: blur(15px); /* New :) */
-  display: none;
 }
 .nav__list {
   display: flex;
