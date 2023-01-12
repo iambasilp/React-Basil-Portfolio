@@ -1,0 +1,37 @@
+.testimonials{
+    position: relative;
+}
+.testimonials__container{
+    width: 40%;
+}
+.client{
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    border: 0.4rem solid var(--color-primary-varient);
+}
+.testimonials__card{
+    background-color: var(--color-primary-varient);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+.clien__review{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin:0.8rem auto 0
+}
+
+@media screen and (max-width:600px) {
+    .testimonials__container{
+        width: var(--container-width-sm);
+    }
+    .clien__review{
+        width: var(--container-width-sm);
+    }
+}
