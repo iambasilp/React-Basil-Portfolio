@@ -1,0 +1,32 @@
+.portfolio{
+    position: relative;
+}
+.portfolio__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280.33px, 1fr));  
+    /* ** Above ** This is amazing . Intrinsically Responsive CSS Grid with minmax() and min()  --iambasilp*/ 
+    gap: 2.5rem;
+}
+.portfolio__item{
+    background-color: var(--color-bg-varient);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border:1px solid transparent;
+    transition: var(--transition);
+}
+.portfolio__item:hover{
+    border-color: var(--color-bg-varient);
+    background-color: transparent;
+}
+.portfolio__img{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+.portfolio__item h3{
+    margin: 1.2rem 0 2rem;
+}
+.portfolio__buttons{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
