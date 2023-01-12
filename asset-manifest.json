@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Basil-Portfolio/static/css/main.f70e6c91.css",
-    "main.js": "/React-Basil-Portfolio/static/js/main.4cefbe6d.js",
+    "main.css": "/React-Basil-Portfolio/static/css/main.18ec38f5.css",
+    "main.js": "/React-Basil-Portfolio/static/js/main.ba9a92c9.js",
     "static/media/cv.pdf": "/React-Basil-Portfolio/static/media/cv.1676dcdc83730930d888.pdf",
     "static/media/me.png": "/React-Basil-Portfolio/static/media/me.821ecddcb9953b46bf75.png",
     "static/media/me-about.jpg": "/React-Basil-Portfolio/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "static/media/portfolio5.png": "/React-Basil-Portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/portfolio2.jpg": "/React-Basil-Portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio6.jpg": "/React-Basil-Portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio1.jpg": "/React-Basil-Portfolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/React-Basil-Portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/React-Basil-Portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "index.html": "/React-Basil-Portfolio/index.html",
-    "main.f70e6c91.css.map": "/React-Basil-Portfolio/static/css/main.f70e6c91.css.map",
-    "main.4cefbe6d.js.map": "/React-Basil-Portfolio/static/js/main.4cefbe6d.js.map"
+    "main.18ec38f5.css.map": "/React-Basil-Portfolio/static/css/main.18ec38f5.css.map",
+    "main.ba9a92c9.js.map": "/React-Basil-Portfolio/static/js/main.ba9a92c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f70e6c91.css",
-    "static/js/main.4cefbe6d.js"
+    "static/css/main.18ec38f5.css",
+    "static/js/main.ba9a92c9.js"
   ]
 }
