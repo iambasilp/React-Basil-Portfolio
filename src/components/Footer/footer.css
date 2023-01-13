@@ -1,0 +1,135 @@
+/*=============== FOOTER ===============*/
+.footer {
+    position: relative;
+    margin-top: 12rem;
+    padding-block: 3rem;
+    overflow: hidden;
+    background:var(--color-bg)
+  }
+  .footer__container {
+    row-gap: 1rem;
+  }
+  .footer__logo {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .footer__logo img {
+    width: 25px;
+  }
+  .footer__logo:hover {
+    color: var(--color-primary);
+  }
+  .footer__description,
+  .footer__link,
+  .footer__information {
+    font-size: 1rem;
+  }
+  .footer__description{
+    color: var(--color-light);
+    margin-bottom: 1.5rem;
+  }
+  .footer__content,
+  .footer__links {
+    display: grid;
+  }
+  .footer__content {
+    grid-template-columns: repeat(2, max-content);
+    gap: 3.5rem;
+  }
+  .footer__content{
+    margin-bottom: 4rem;
+  }
+  .footer__title {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+    color: var(--color-primary);
+  }
+  .footer__links {
+    row-gap: 0.5rem;
+  }
+  .footer__link {
+    color: var(--color-lighten);
+    transition: color 0.3s;
+  }
+  .footer__link:hover {
+    color: var(--color-primary);
+  }
+  .footer__social {
+    display: flex;
+    column-gap: 1.25rem;
+  }
+  .footer__social-link {
+    font-size: 1.25rem;
+    color: var(--color-lighten);
+    transition: color 0.3s, transform 0.3s;
+  }
+  .footer__social-link:hover {
+    color: var(--first-color-alt);
+    transform: translateY(-0.25rem);
+  }
+
+  .footer__info{
+    display: flex;
+    font-size: .9rem;
+    letter-spacing: .5px;
+    color: var(--color-light);
+    margin-bottom: 4rem;
+  }
+  .footer__info {
+    margin-top:.5rem;
+    flex-direction: column;
+    row-gap:.5rem;
+  }
+
+
+  .footer__copy {
+    text-align: center;
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+  }
+
+
+  /* For small devices */
+@media screen and (max-width:340px) {
+    .footer__content{
+    grid-template-columns: max-content;
+    } 
+  .footer__description{
+    font-size: .9rem;
+  }
+  .footer__link{
+    font-size: .9rem;
+  }
+  .footer__social-link{
+    font-size: 1.1rem;
+  }
+  .footer__info{
+    font-size: .8rem;
+  }
+}
+  
+  /* For Medium devices */
+@media screen and (min-width:576px) {
+   .footer__content{
+    gap: 6rem;
+   }
+   .footer__container{
+      width: var(--container-width-lg);   
+   } 
+}
+@media screen and (min-width:767px) {
+    
+}
+
+/* For large devices */
+@media screen and (min-width:1024px){
+
+}
+@media screen and (min-width:1064px) {
+    
+}
+@media screen and (min-width:1200px){
+
+}

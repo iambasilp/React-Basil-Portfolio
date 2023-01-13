@@ -45,6 +45,7 @@ input,textarea{
     background-color: transparent;
     border:2px solid var(--color-primary-varient);
     resize: none;
+    letter-spacing:.8px;
     color: var(--color-white);
     accent-color: var(--color-primary-varient);
 }

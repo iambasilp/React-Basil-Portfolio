@@ -1,5 +1,6 @@
 .portfolio{
     position: relative;
+    padding-top: 2.5rem;
 }
 .portfolio__container{
     display: grid;
