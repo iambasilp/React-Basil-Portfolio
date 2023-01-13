@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Basil-Portfolio/static/css/main.18ec38f5.css",
-    "main.js": "/React-Basil-Portfolio/static/js/main.ba9a92c9.js",
+    "main.css": "/React-Basil-Portfolio/static/css/main.5d5b3849.css",
+    "main.js": "/React-Basil-Portfolio/static/js/main.d1caf0cc.js",
     "static/media/cv.pdf": "/React-Basil-Portfolio/static/media/cv.1676dcdc83730930d888.pdf",
     "static/media/me.png": "/React-Basil-Portfolio/static/media/me.821ecddcb9953b46bf75.png",
     "static/media/me-about.jpg": "/React-Basil-Portfolio/static/media/me-about.fb4452e7f286d3636ef9.jpg",
@@ -12,11 +12,11 @@
     "static/media/portfolio3.jpg": "/React-Basil-Portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
     "static/media/portfolio4.jpg": "/React-Basil-Portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "index.html": "/React-Basil-Portfolio/index.html",
-    "main.18ec38f5.css.map": "/React-Basil-Portfolio/static/css/main.18ec38f5.css.map",
-    "main.ba9a92c9.js.map": "/React-Basil-Portfolio/static/js/main.ba9a92c9.js.map"
+    "main.5d5b3849.css.map": "/React-Basil-Portfolio/static/css/main.5d5b3849.css.map",
+    "main.d1caf0cc.js.map": "/React-Basil-Portfolio/static/js/main.d1caf0cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.18ec38f5.css",
-    "static/js/main.ba9a92c9.js"
+    "static/css/main.5d5b3849.css",
+    "static/js/main.d1caf0cc.js"
   ]
 }
