@@ -1,6 +1,6 @@
 import React from "react";
 import CTA from "./CTA";
-import ME from "../../assets/me.png";
+import ME from "../../assets/home.svg";
 import "./home.css";
 import HomeSocial from "./HomeSocial";
 const Header = () => {
@@ -8,18 +8,19 @@ const Header = () => {
     <div className="home">
       <div className="home__container container grid">
         <div className="home__data">
-          <h5>Hello I'm</h5>
-          <h1>Basil Pulikuth</h1>
-          <h5 className="text-light">Fullstack Developer</h5>
-          <CTA />
-          <HomeSocial />
-          <a href="#contact" className="scroll__down">
-            Scroll Down
-          </a>
+          <h1>
+            <span>Hello I'am</span> <br /> Basil Pulikuth
+          </h1>
+            <h5>MERN + AI developer</h5>
+          <p className="home__description">
+            I’m a MERN Developer based on India. curious to learn more about
+            developing scalable distributed systems, loves problem solving and
+            cares about read
+          </p>
+          <CTA/>
+          <HomeSocial/>
         </div>
-        <div className="me">
-          <img src={ME} alt="" className="home__img" />
-        </div>
+        <img src={ME} alt="Home image" className="home__img" />
       </div>
     </div>
   );

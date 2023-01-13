@@ -12,7 +12,8 @@
     border: 0.4rem solid var(--color-primary-varient);
 }
 .testimonials__card{
-    background-color: var(--color-primary-varient);
+    /* background: linear-gradient(90deg,#208dfa 2.34%,#9739f5 100.78%); */
+    background: #161B22;
     text-align: center;
     padding: 2rem;
     border-radius: 2rem;

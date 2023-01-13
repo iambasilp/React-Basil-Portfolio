@@ -4,7 +4,7 @@
     margin-top: 12rem;
     padding-block: 3rem;
     overflow: hidden;
-    background:var(--color-bg)
+    background:#161B22;
   }
   .footer__container {
     row-gap: 1rem;
@@ -27,6 +27,7 @@
     font-size: 1rem;
   }
   .footer__description{
+    font-family: inherit;
     color: var(--color-light);
     margin-bottom: 1.5rem;
   }

@@ -8,16 +8,14 @@
     /* ** Above ** This is amazing . Intrinsically Responsive CSS Grid with minmax() and min()  --iambasilp*/ 
     gap: 2.5rem;
 }
+
 .portfolio__item{
-    background-color: var(--color-bg-varient);
+    /* background: linear-gradient(90deg,#09243f 2.34%,#17012e 100.78%); */
+    background: #161B22;
     padding: 1.3rem;
     border-radius: 2rem;
     border:2px solid transparent;
     transition: var(--transition);
-}
-.portfolio__item:hover{
-    border-color: var(--color-bg-varient);
-    background-color: transparent;
 }
 .portfolio__img{
     border-radius: 1.5rem;
@@ -30,4 +28,10 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+.portfolio__buttons .btn{
+    border: 1px solid var(--color-light);
+}
+.portfolio__buttons .btn-primary{
+    border: none;
 }

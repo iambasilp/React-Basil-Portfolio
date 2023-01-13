@@ -5,25 +5,25 @@
   gap: 3rem;
 }
 .services__card {
-  background-color: var(--color-bg-varient);
+  background-color: #161B22;
   border-radius: 0 0 2rem 2rem;
-  border: 1px solid var(--color-primary);
+  border: 1px solid transparent;
   height: fit-content; /* New :) */
   transition: var(--transition);
 }
 .services__card:hover {
   background-color: transparent;
-  border-color: var(--color-primary-variant);
+  border-color: var(--color-light);
   cursor: default;
 }
 .services__head {
-  background-color: var(--color-primary);
+  background: linear-gradient(90deg,#2c5a8b 2.34%,#754ba0 100.78%);
   padding: 2rem;
   border-radius: 0rem 0rem 2rem 2rem;
   box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 .services__head h3 {
-  color: var(--color-bg);
+  color: white;
   font-size: 1rem;
   text-align: center;
 }
