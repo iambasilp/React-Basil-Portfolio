@@ -68,9 +68,6 @@ const Testimonials = () => {
           );
         })}
       </Swiper>
-      <br />
-      <br />
-      <br />
     </section>
   );
 };
