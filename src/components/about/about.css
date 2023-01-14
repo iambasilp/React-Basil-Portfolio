@@ -14,12 +14,12 @@
   justify-self: center;
   height: max-content;
   /* background: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%); */
-  background: linear-gradient(
+  /* background: linear-gradient(
     45deg,
     transparent,
-    #4ca5ff,
+    #34023b,
     transparent
-  );
+  ); */
   
 }
 .about__img {
@@ -27,13 +27,13 @@
   width: 240px;
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(10deg);
+  /* transform: rotate(10deg); */
   transition: var(--transition);
   display: flex;
 }
 
 .about__img:hover {
-  transform: rotate(0deg);
+  /* transform: rotate(0deg); */
 }
 .about__cards {
   grid-template-columns: repeat(2, 1fr);
