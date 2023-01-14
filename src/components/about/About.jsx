@@ -18,7 +18,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__card-icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>2+ Years Working</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__card-icon" />
@@ -32,12 +32,17 @@ const About = () => {
             </article>
           </div>
           <p className="about__description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat,
-            fuga consectetur! Architecto distinctio voluptate ipsam eum autem
-            ullam, expedita porro tempora quidem cupiditate facilis praesentium?
-            Ullam porro laborum tempore explicabo.
+            I am a full-stack MERN developer with a passion for building
+            beautiful and functional websites and web applications. I have
+            experience working with the MERN stack (MongoDB, Express.js, React,
+            and Node.js) and am skilled in both front-end and back-end web
+            development. I am a creative problem-solver and quick learner,
+            always eager to stay updated with the latest technologies and trends
+            in the industry.
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>

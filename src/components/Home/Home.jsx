@@ -11,14 +11,14 @@ const Header = () => {
           <h1>
             <span>Hello I'am</span> <br /> Basil Pulikuth
           </h1>
-            <h5>MERN + AI developer</h5>
+          <h5>MERN + AI developer</h5>
           <p className="home__description">
-            I’m a MERN Developer based on India. curious to learn more about
-            developing scalable distributed systems, loves problem solving and
-            cares about read
+            I am a skilled full-stack MERN developer, with a passion for
+            creating visually stunning and user-friendly web applications that
+            deliver both functionality and efficiency.
           </p>
-          <CTA/>
-          <HomeSocial/>
+          <CTA />
+          <HomeSocial />
         </div>
         <img src={ME} alt="Home image" className="home__img" />
       </div>
