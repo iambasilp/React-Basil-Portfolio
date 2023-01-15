@@ -1,44 +1,82 @@
-import React from "react";
-import {useState} from 'react'
+import React, { useState } from "react";
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./nav.css";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
-import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
-const Nav = () => {
-  const [activeBar, setActiveBar] = useState('#')
+
+const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
-    <nav className="nav">
-      <ul className="nav__menu" id="nav-menu">
-        <ul className="nav__list">
-          <li className="nav__item">
-            <a href="#" onClick={()=>{setActiveBar('#')}} className={`nav__link ${activeBar === "#" ? "active" : "" }`}>
-              <AiOutlineHome />
-            </a>
-          </li>
-          <li className="nav__item">
-            <a href="#about"  onClick={()=>{setActiveBar("#about")}} className={`nav__link ${activeBar === "#about" ? "active" : "" }`}>
-              <AiOutlineUser />
-            </a>
-          </li>
-          <li className="nav__item">
-            <a href="#experience" onClick={()=>{setActiveBar("#experience")}} className={`nav__link ${activeBar === "#experience" ? "active" : "" }`}>
-              <BiBook />
-            </a>
-          </li>
-          <li className="nav__item">
-            <a href="#services" onClick={()=>{setActiveBar("#services")}} className={`nav__link ${activeBar === "#services" ? "active" : "" }`}>
-              <RiServiceLine />
-            </a>
-          </li>
-          <li className="nav__item">
-            <a href="#contact" className="nav__link" onClick={()=>{setActiveBar("#contact")}} className={`nav__link ${activeBar === "#contact" ? "active" : "" }`}>
-              <BiMessageSquareDetail />
-            </a>
-          </li>
-        </ul>
-      </ul>
-    </nav>
+    <div className="navbar__container container">
+      <div className="gpt3__navbar">
+        <div className="gpt3__navbar-links">
+          <div className="gpt3__navbar-links_logo">
+            <h1>BS</h1>
+          </div>
+          <div className="gpt3__navbar-links_container ">
+            <p>
+              <a href="#home">Home</a>
+            </p>
+            <p>
+              <a href="#about">About</a>
+            </p>
+            <p>
+              <a href="#experience">Experience</a>
+            </p>
+            <p>
+              <a href="#services">Services</a>
+            </p>
+            <p>
+              <a href="#contact">Contact</a>
+            </p>
+          </div>
+        </div>
+        <div className="gpt3__navbar-sign">
+          
+          <button type="button"><a href="https://github.com/iambasilp">Github</a></button>
+        </div>
+        <div className="gpt3__navbar-menu">
+          {toggleMenu ? (
+            <RiCloseLine
+              color="#fff"
+              size={29}
+              onClick={() => setToggleMenu(false)}
+            />
+          ) : (
+            <RiMenu3Line
+              color="#fff"
+              size={29}
+              onClick={() => setToggleMenu(true)}
+            />
+          )}
+          {toggleMenu && (
+            <div className="gpt3__navbar-menu_container scale-up-center">
+              <div className="gpt3__navbar-menu_container-links">
+                <p>
+                  <a href="#home">Home</a>
+                </p>
+                <p>
+                  <a href="#about">About</a>
+                </p>
+                <p>
+                  <a href="#experience">Experience</a>
+                </p>
+                <p>
+                  <a href="#services">Services</a>
+                </p>
+                <p>
+                  <a href="#contact">Contact</a>
+                </p>
+              </div>
+              <div className="gpt3__navbar-menu_container-links-sign">
+                
+                <button type="button"><a href="https://github.com/iambasilp">Github</a></button>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
   );
 };
 
-export default Nav;
+export default Navbar;

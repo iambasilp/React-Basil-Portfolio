@@ -27,6 +27,7 @@
     margin-bottom: 0.5rem;
 }
 .contact__information a {
+    color: var(--color-primary);
     display: inline-block;
     margin-top: 0.7rem;
     font-size: .8rem;

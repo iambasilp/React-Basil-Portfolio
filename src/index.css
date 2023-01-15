@@ -22,6 +22,7 @@ ul{
   --color-light:#A3B3BC;
   --color-lighten:rgba(255, 255, 255, 0.795);
   --transition: all 400ms ease;
+
   --container-width-lg:75%;
   --container-width-md:86%;
   --container-width-sm:90%;
@@ -47,14 +48,11 @@ h1,h2,h3,h4,h5{
 h1{
   font-size: 2.5rem;
 }
-a{
-  color: var(--color-primary);
+a {
+  color: unset;
   text-decoration: none;
-  transition: var(--transition);
 }
-a:hover{
-  color: var(--color-white);
-}
+
 .btn{
   font-size: 14px;
   width: max-content;
@@ -133,7 +131,32 @@ img{
 
 
 
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
 
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
 
 
 

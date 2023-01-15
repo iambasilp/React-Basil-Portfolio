@@ -10,6 +10,7 @@
     row-gap: 1rem;
   }
   .footer__logo {
+    color: var(--color-primary);
     display: inline-flex;
     align-items: center;
     column-gap: 0.5rem;
