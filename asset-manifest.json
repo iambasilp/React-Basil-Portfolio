@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Basil-Portfolio/static/css/main.a11c3d10.css",
-    "main.js": "/React-Basil-Portfolio/static/js/main.def6ae6c.js",
-    "static/media/cv.pdf": "/React-Basil-Portfolio/static/media/cv.1676dcdc83730930d888.pdf",
-    "static/media/portfolio5.png": "/React-Basil-Portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
-    "static/media/portfolio2.jpg": "/React-Basil-Portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
-    "static/media/portfolio6.jpg": "/React-Basil-Portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
-    "static/media/portfolio1.jpg": "/React-Basil-Portfolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
-    "static/media/portfolio3.jpg": "/React-Basil-Portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
-    "static/media/portfolio4.jpg": "/React-Basil-Portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
-    "static/media/logo.png": "/React-Basil-Portfolio/static/media/logo.ac42e478a7d2d6efa852.png",
-    "static/media/home.svg": "/React-Basil-Portfolio/static/media/home.55e715841676f12f4e450347e8dd04d2.svg",
-    "index.html": "/React-Basil-Portfolio/index.html",
-    "main.a11c3d10.css.map": "/React-Basil-Portfolio/static/css/main.a11c3d10.css.map",
-    "main.def6ae6c.js.map": "/React-Basil-Portfolio/static/js/main.def6ae6c.js.map"
+    "main.css": "/basil.social/static/css/main.8000a409.css",
+    "main.js": "/basil.social/static/js/main.6e55de6a.js",
+    "static/media/cv.pdf": "/basil.social/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/portfolio5.png": "/basil.social/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/portfolio2.jpg": "/basil.social/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio6.jpg": "/basil.social/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio1.jpg": "/basil.social/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/basil.social/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/basil.social/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/logo.png": "/basil.social/static/media/logo.ac42e478a7d2d6efa852.png",
+    "static/media/home.svg": "/basil.social/static/media/home.55e715841676f12f4e450347e8dd04d2.svg",
+    "index.html": "/basil.social/index.html",
+    "main.8000a409.css.map": "/basil.social/static/css/main.8000a409.css.map",
+    "main.6e55de6a.js.map": "/basil.social/static/js/main.6e55de6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a11c3d10.css",
-    "static/js/main.def6ae6c.js"
+    "static/css/main.8000a409.css",
+    "static/js/main.6e55de6a.js"
   ]
 }
