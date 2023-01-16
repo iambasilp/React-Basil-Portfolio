@@ -1,7 +1,7 @@
 {
   "name": "basil_portfolio",
   "version": "0.1.0",
-  "homepage": "React-Basil-Portfolio",
+  "homepage": "basil.social",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
