@@ -41,7 +41,7 @@
 }
 .home__description {
   line-height: 21px;
-  font-family: inherit;
+  font-family: 'Poppins', sans-serif;
   color: var(--color-light);
   margin-block: 1.15rem 2.4rem;
 }

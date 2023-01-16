@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import { BsGithub } from "react-icons/bs";
 import "./nav.css";
 
 const Navbar = () => {
@@ -31,8 +32,12 @@ const Navbar = () => {
           </div>
         </div>
         <div className="gpt3__navbar-sign">
-          
-          <button type="button"><a href="https://github.com/iambasilp">Github</a></button>
+          <button type="button">
+            <a href="https://github.com/iambasilp">
+              Github
+              <BsGithub className="button--icon" size={20} />
+            </a>
+          </button>
         </div>
         <div className="gpt3__navbar-menu">
           {toggleMenu ? (
@@ -68,8 +73,12 @@ const Navbar = () => {
                 </p>
               </div>
               <div className="gpt3__navbar-menu_container-links-sign">
-                
-                <button type="button"><a href="https://github.com/iambasilp">Github</a></button>
+                <button type="button">
+                  <a href="https://github.com/iambasilp">
+                    Github
+                    <BsGithub className="button--icon" size={20} />
+                  </a>
+                </button>
               </div>
             </div>
           )}

@@ -1,5 +1,6 @@
 .navbar__container{
   position: relative;
+  top: 0;
   z-index: 200;
 }
 .gpt3__navbar {
@@ -78,8 +79,14 @@
   outline: none;
   cursor: pointer;
   border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
 }
-
+.gpt3__navbar button a{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+}
 .gpt3__navbar-menu {
   margin-left: 1rem;
 
@@ -98,7 +105,7 @@
   flex-direction: column;
   
   text-align: end;
-  background:#161B22;;
+  background:#011330;
   padding: 2rem;
   position: absolute;
   right: 0;
