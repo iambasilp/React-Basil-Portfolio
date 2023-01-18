@@ -15,7 +15,7 @@ const Footer = () => {
             WEBINT
           </a>
           <p className="footer__description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quo animi id!
+            Iam curious to learn more technology
           </p>
         </div>
         <div className="footer__content">
