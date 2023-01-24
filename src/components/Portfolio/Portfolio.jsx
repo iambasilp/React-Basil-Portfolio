@@ -55,7 +55,7 @@ const Portfolio = () => {
       photo: IMG5,
       title: "Fully Responsive Restaurant Website with Modern UI and UX in ReactJS",
       github: "https://github.com/iambasilp/Restaurant-Modern-react-website",
-      demo: "#",
+      demo: "https://iambasilp.github.io/Restaurant-Modern-react-website/",
     },
     {
       id: 6,
