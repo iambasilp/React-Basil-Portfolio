@@ -47,8 +47,8 @@ const Portfolio = () => {
       id: 4,
       photo: IMG4,
       title: "Fully Responsive Bank Website with Modern UI/UX in React JS with Tailwind",
-      github: "https://github.com",
-      demo: "https://cdn.dribbble.com/users/1998175/screenshots/16766927/media/bb23da53a260e2af2e9730fce44ab684.jpg?compress=1&resize=768x576&vertical=top",
+      github: "https://github.com/iambasilp/Banking-Modern-react-website",
+      demo: "https://spontaneous-naiad-0a0efd.netlify.app/",
     },
     {
       id: 5,
